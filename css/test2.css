@@ -1,12 +1,82 @@
 body{
-	
+	margin: 0;
+	font-family: 'Helvetica', 'Arial';
+	line-height: 30px;
 }
 
-h1{
-	font-size: 50px;
+header{
+	text-align: center;
+	font-family: 'Bungee', cursive;
+
+}
+
+head img{
+	text-align: center;
+}
+
+header img{
+
+}
+
+h1, h2{
+	font-family: 'Bungee', cursive;
+
 }
 
 h2{
-	font-size: 30px;
+	font-size: 25px;
 	color: dimgrey;
+	text-align: center;
+	margin: 40px 0 10px;
+
+}
+
+p{
+	font-size: 18px;
+}
+
+p.caption{
+	color: grey;
+}
+
+a{
+	color: navy;
+}
+
+a:hover{
+	color: salmon;
+	background-color: black;
+}
+
+header h1{
+	font-size: 35px;
+}
+
+header h2{
+	font-size: 30px;
+}
+
+footer{
+	background-color: black;
+	color: lightgrey;
+	text-align: center;
+	padding: 50px;
+}
+
+footer a{
+	color: aquamarine;
+}
+
+footer p{
+	margin: 0;
+}
+
+main{
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
 }
